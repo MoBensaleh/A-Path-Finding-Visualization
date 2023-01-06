@@ -21,7 +21,7 @@ YELLOW = (255, 255, 0)
 
 # Set up the display
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Dijkstra's Algorithm Visualization")
+pygame.display.set_caption("A* Pathfinding Algorithm Visualization")
 
 # Set up the grid
 grid = []
