@@ -1,7 +1,7 @@
 # A-Path-Finding-Visualization
 A* is a popular pathfinding algorithm that is used to find the shortest path between two points on a grid. It combines the use of a heuristic function with the cost of movement to efficiently search through the grid and find the optimal path. A* is commonly used in computer science and game development to allow objects to navigate around obstacles and find the most efficient path to their destination. Working on this project has allowed me to further my understanding of algorithms and their practical applications, as well as work on my skills in GUI and front end development.
 
-<img src="pathfindingGIF.gif" width="400" height="400" />
+<img align="center" src="pathfindingGIF.gif" width="400" height="400" />
 
 ## Overview
 This program allows the user to create blocks on a grid by clicking and dragging the mouse, which will be used to represent walls or obstacles. The user can then select a start node by clicking on a cell and then selecting an end node by clicking on a different cell. The program will then use the A* algorithm to find the shortest path between the start and end nodes, represented by a yellow line. If no path is found, a message will be displayed to the user. The program also has a "Restart" button that allows the user to clear the grid and start over, as well as a "Quit" button to exit the program. The cells on the grid will change color to indicate their status during the A* algorithm: black cells are walls or obstacles, red represents the start cell, green represents the end cell, and yellow cells are part of the final path.
